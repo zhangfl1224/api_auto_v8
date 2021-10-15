@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="恰柠檬项目">
+    <test name="注册接口">
+        <classes>
+            <class name="com.lemon.cases.RegisterCase"></class>
+            <parameter name="startSheetIndex" value="0"></parameter>
+            <parameter name="sheetNum" value="1"></parameter>
+        </classes>
+    </test>
+
+    <test name="登录接口">
+        <classes>
+            <class name="com.lemon.cases.LoginCase"></class>
+            <parameter name="startSheetIndex" value="1"></parameter>
+            <parameter name="sheetNum" value="1"></parameter>
+        </classes>
+    </test>
+
+    <test name="充值接口">
+        <classes>
+            <class name="com.lemon.cases.RechargeCase"></class>
+            <parameter name="startSheetIndex" value="2"></parameter>
+            <parameter name="sheetNum" value="1"></parameter>
+        </classes>
+    </test>
+
+    <!--<test name="新增项目接口">
+        <classes>
+            <class name="com.lemon.cases.AddLoanCase"></class>
+            <parameter name="startSheetIndex" value="3"></parameter>
+            <parameter name="sheetNum" value="1"></parameter>
+        </classes>
+    </test>
+
+    <test name="管理员登录接口">
+        <classes>
+            <class name="com.lemon.cases.LoginCase"></class>
+            <parameter name="startSheetIndex" value="4"></parameter>
+            <parameter name="sheetNum" value="1"></parameter>
+        </classes>
+    </test>
+
+    <test name="审核项目接口">
+        <classes>
+            <class name="com.lemon.cases.AuditCase"></class>
+            <parameter name="startSheetIndex" value="5"></parameter>
+            <parameter name="sheetNum" value="1"></parameter>
+        </classes>
+    </test>
+
+    <test name="投资接口">
+        <classes>
+            <class name="com.lemon.cases.InvestCase"></class>
+            <parameter name="startSheetIndex" value="6"></parameter>
+            <parameter name="sheetNum" value="1"></parameter>
+        </classes>
+    </test>-->
+
+</suite>
